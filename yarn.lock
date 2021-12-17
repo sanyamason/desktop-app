@@ -18261,10 +18261,10 @@ radix-router@^3.0.1:
   resolved "https://registry.yarnpkg.com/radix-router/-/radix-router-3.0.1.tgz#5522c829f7100e60c58fd1acf8803e0b2b312d97"
   integrity sha512-jpHXHgP+ZmVzEfmZ7WVRSvc/EqMoAqYuMtBsHd9s47Hs9Iy8FDJhkweMrDH0wmdxanLzVIWhq0UpomLXNpW8tg==
 
-ramda-adjunct@^2.17.0:
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/ramda-adjunct/-/ramda-adjunct-2.18.0.tgz#f8ddf4b596ff012c17fe1e0118262137894512b3"
-  integrity sha512-0J4mmJqUmtEbAU6Ttmuw/RsbjWdgQkbTcBlR7goF55HpdxThbbOZY2SF0HUTId65WXaVV3D7tG7Ac/FrRETXlg==
+ramda-adjunct@^2.35.0:
+  version "2.35.0"
+  resolved "https://registry.yarnpkg.com/ramda-adjunct/-/ramda-adjunct-2.35.0.tgz#67ff6a36e152c20d785da0a072c90b269fcc15ad"
+  integrity sha512-r/U0BpJ04mFzFsQK1Ro+e38v/GfvlqQZyKohJxPq/3ADQrJG3/DdpOhYfrt94HTk2NM5WkXxQiOpVg987yrEFQ==
 
 ramda@^0.21.0:
   version "0.21.0"
