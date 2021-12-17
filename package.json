@@ -368,7 +368,7 @@
     "shortid": "^2.2.8",
     "simple-icons": "^1.8.4",
     "slack": "^11.0.2",
-    "source-map-support": "^0.4.15",
+    "source-map-support": "^0.5.21",
     "sqlite3": "^4.1.1",
     "stats-lite": "^2.1.0",
     "stream-electron-ipc": "^1.0.14",
