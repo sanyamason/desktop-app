@@ -52,7 +52,7 @@
     "react-router-dom": "^5.1.2",
     "react-transition-group": "^4.3.0",
     "react-virtualized": "^9.21.2",
-    "redux": "^4.0.4",
+    "redux": "^4.1.2",
     "redux-saga": "^0.16.2",
     "string-to-color": "^2.1.1",
     "tslib": "^1.10.0",
