@@ -361,7 +361,7 @@
     "rxjs": "6.4.*",
     "rxjs-compat": "^6.4.0",
     "sanitize-filename": "^1.6.1",
-    "scheduler": "^0.13.6",
+    "scheduler": "^0.20.2",
     "scroll-into-view-if-needed": "^2.2.20",
     "sequelize": "4.38.0",
     "shared-redux": "^1.0.9",
