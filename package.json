@@ -47,7 +47,9 @@
     "manage-data": "ts-node --project ./tsconfig.json dev_utils/userDataManager.ts",
     "canary": "node scripts/canary",
     "dump:manifests": "./scripts/application_manifests/dump_manifests.sh",
-    "dump:icons": "./scripts/application_manifests/dump_icons.sh"
+    "dump:icons": "./scripts/application_manifests/dump_icons.sh",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "bin": {
     "electron": "./node_modules/.bin/electron"
@@ -231,7 +233,7 @@
     "@babel/plugin-proposal-decorators": "^7.4.4",
     "@babel/runtime": "^7.4.3",
     "@getstation/apollo-link-reactive-schema": "^1.0.0",
-    "@getstation/electron-google-oauth2": "^2.0.0",
+    "@getstation/electron-google-oauth2": "^2.1.0",
     "@getstation/electron-spellchecker": "^4.1.0",
     "@getstation/fetch-favicon": "^0.0.4-rc.2",
     "@getstation/frecency": "1.4.0",
@@ -274,14 +276,14 @@
     "fs-extra": "^7.0.1",
     "fuse.js": "^3.1.0",
     "global-tunnel-ng": "^2.7.1",
-    "google-auth-library": "^1.4.0",
-    "googleapis": "^28.1.0",
+    "google-auth-library": "^6.0.0",
+    "googleapis": "^49.0.0",
     "graphql": "^14.0.2",
     "graphql-import": "^0.7.1",
     "graphql-subscriptions": "^1.1.0",
     "graphql-tag": "^2.6.1",
     "graphql-tools": "^4.0.3",
-    "handlebars": "^4.0.6",
+    "handlebars": "^4.7.7",
     "immutable": "^3.8.1",
     "immutable-devtools": "0.0.7",
     "ip-geolocate": "^1.0.1",
@@ -301,7 +303,7 @@
     "lodash.throttle": "^4.1.1",
     "lru-cache": "^4.1.1",
     "macos-notification-state": "^1.3.0",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-emoji": "^1.4.0",
     "median": "^0.0.2",
     "memoize-bind": "^1.0.3",
@@ -310,7 +312,7 @@
     "millisec": "^0.2.0",
     "mkdirp": "^0.5.1",
     "mod-op": "^1.0.0",
-    "moment": "^2.18.1",
+    "moment": "^2.29.4",
     "mousetrap": "^1.6.0",
     "ms": "^2.1.1",
     "mware-ts": "^1.0.0",
@@ -318,9 +320,9 @@
     "node-pre-gyp": "^0.13.0",
     "pluralize": "^7.0.0",
     "prop-types": "^15.6.1",
-    "public-ip": "^2.3.5",
+    "public-ip": "^5.0.0",
     "radix-router": "^3.0.1",
-    "ramda": "^0.26.1",
+    "ramda": "^0.27.2",
     "ramda-adjunct": "^2.17.0",
     "re-reselect": "^0.6.0",
     "react": "^16.9.0",
@@ -363,13 +365,13 @@
     "sanitize-filename": "^1.6.1",
     "scheduler": "^0.13.6",
     "scroll-into-view-if-needed": "^2.2.20",
-    "sequelize": "4.38.0",
+    "sequelize": "6.21.2",
     "shared-redux": "^1.0.9",
     "shortid": "^2.2.8",
     "simple-icons": "^1.8.4",
     "slack": "^11.0.2",
     "source-map-support": "^0.4.15",
-    "sqlite3": "^4.1.1",
+    "sqlite3": "^5.0.3",
     "stats-lite": "^2.1.0",
     "stream-electron-ipc": "^1.0.14",
     "stream-json-rpc": "^0.7.9",
@@ -392,7 +394,8 @@
     "use-timeout": "^1.1.0",
     "utility-types": "^3.7.0",
     "uuid": "^3.3.2",
-    "ws": "^5.2.2"
+    "ws": "^5.2.3",
+    "@snyk/protect": "latest"
   },
   "devEngines": {
     "node": ">=12.4.0",
@@ -442,5 +445,6 @@
       "sourceDirectory": "app",
       "webpackConfig": "webpack.config.main.js"
     }
-  }
+  },
+  "snyk": true
 }
