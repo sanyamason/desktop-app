@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - google-auth-library > axios:
+        patched: '2022-10-09T23:52:00.921Z'
+    - google-auth-library > gcp-metadata > axios:
+        patched: '2022-10-09T23:52:00.921Z'
+    - google-auth-library > gtoken > axios:
+        patched: '2022-10-09T23:52:00.921Z'
+    - '@getstation/electron-google-oauth2 > google-auth-library > axios':
+        patched: '2022-10-09T23:52:00.921Z'
+    - googleapis > google-auth-library > axios:
+        patched: '2022-10-09T23:52:00.921Z'
+    - '@getstation/electron-google-oauth2 > google-auth-library > gcp-metadata > axios':
+        patched: '2022-10-09T23:52:00.921Z'
+    - googleapis > google-auth-library > gcp-metadata > axios:
+        patched: '2022-10-09T23:52:00.921Z'
+    - '@getstation/electron-google-oauth2 > google-auth-library > gtoken > axios':
+        patched: '2022-10-09T23:52:00.921Z'
+    - googleapis > google-auth-library > gtoken > axios:
+        patched: '2022-10-09T23:52:00.921Z'
+    - '@getstation/electron-google-oauth2 > googleapis > google-auth-library > axios':
+        patched: '2022-10-09T23:52:00.921Z'
+    - '@getstation/electron-google-oauth2 > googleapis > google-auth-library > gcp-metadata > axios':
+        patched: '2022-10-09T23:52:00.921Z'
+    - '@getstation/electron-google-oauth2 > googleapis > google-auth-library > gtoken > axios':
+        patched: '2022-10-09T23:52:00.921Z'
