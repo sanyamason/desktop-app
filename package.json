@@ -318,7 +318,7 @@
     "node-pre-gyp": "^0.13.0",
     "pluralize": "^7.0.0",
     "prop-types": "^15.6.1",
-    "public-ip": "^2.3.5",
+    "public-ip": "^3.0.0",
     "radix-router": "^3.0.1",
     "ramda": "^0.26.1",
     "ramda-adjunct": "^2.17.0",
